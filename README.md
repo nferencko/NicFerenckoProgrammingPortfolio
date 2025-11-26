@@ -1,4 +1,4 @@
-# NicFerenckoProgrammingPortfolio
+# Nic Ferencko Programming Portfolio
 
 ## BlackJack (Java)
 
