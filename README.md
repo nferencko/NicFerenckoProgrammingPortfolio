@@ -6,7 +6,7 @@ The projects in this portfolio are some of the most interesting I've worked on. 
 
 - With an assigned class partner, we designed and implemented a basic game of blackjack.  In our console application, a single user plays against a computer dealer.
 -  **My role on this project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the [Card](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) class (representing a single Card), the [DeckOfCards](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) class (a collection of Cards backed by an ArrayList), and the [BlackJackHand](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) class (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the [Actions](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Actions.java) class (the program driver).
--  While the written program was fully functional, there were some elements of a typical BlackJack game that were left out (e.g. doubling down and splitting). Additionally, I am currently learning Java Swing and would like to create a GUI version of this program and element and also incorporate sound.
+-  While the written program was fully functional, there were some elements of a typical BlackJack game that were left out (e.g. doubling down and splitting). Additionally, I am currently learning Java Swing and would like to create a GUI version of this program and also incorporate sound.
 
 ## Probability Simulator (Java)
 
