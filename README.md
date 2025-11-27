@@ -3,7 +3,7 @@
 ## BlackJack (Java)
 
 - With an assigned class partner, we designed and implemented a basic game of blackjack.  In our console application, a single user plays against a computer dealer.
--  **My role on this project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the [Card class](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) (representing a single Card), the [DeckOfCards class](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) (a collection of Cards backed by an ArrayList), and the [BlackJackHand class](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the [Actions class](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Actions.java) (the program driver).
+-  **My role on this project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the [Card](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) class (representing a single Card), the [DeckOfCards](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) class (a collection of Cards backed by an ArrayList), and the [BlackJackHand](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) class (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the [Actions](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Actions.java) class (the program driver).
 -  While the written program was fully functional, there were some elements of a typical BlackJack game that were left out (e.g. doubling down and splitting). Additionally, I am currently learning Java Swing and would like to create a GUI version of this program and element and also incorporate sound.
 
 ## Probability Simulator (Java)
@@ -17,6 +17,6 @@
 
 ## a05-InBetweenHand (C++)
 
-- **Individual Project:** A console application that allows a group of users to play the card game In Between Hand against each other and/or a group of AI players.  The design of the program was largely provided by the instructor, but it was left to me to write all the classes along with the game driver.  Completing the project required an understanding of inheritance and polymorphism along with the C++ STL.
+- **Individual Project:** A console application that allows a group of users to play the card game In Between Hand against each other and/or a group of AI players.  The design of the program was largely provided by the instructor, but it was left to me to write [all the classes](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/a05-inbetween-nferencko/src) along with the game driver.  Completing the project required an understanding of inheritance and polymorphism along with the C++ STL.
 
 
