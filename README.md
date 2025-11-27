@@ -1,6 +1,6 @@
 # Nic Ferencko Programming Portfolio
 
-The projects in this portfolio are some of the more interesting projects I have worked on.  I hope that the code in these projects demonstrate my ability to both solve challenging problems and to write clean code.  I have experience using Python, C++, and Java.  I am currently learning Java Swing and hope to soon inlcude projects that use a graphical user interface.
+The projects in this portfolio are some of the more interesting projects that I have worked on.  I hope that these projects demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I have also done some programming using Python as well.  I am currently learning Java Swing and hope to soon inlcude projects that use a graphical user interface.
 
 ## BlackJack (Java)
 
