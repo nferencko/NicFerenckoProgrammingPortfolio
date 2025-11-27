@@ -13,7 +13,7 @@
 
 ## a01-exponentialgrowth (C++)
 
-- **Individual Project** One of my first C++ projects. In this project I learned how to use functions, grab user input, format output, and use exceptions in C++. I like to call this program an investment calculator. This console application prompts the user to enter investment information and outputs the value of their account over the specified time period. 
+- **Individual Project** One of my first C++ projects. In this [project](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/a01-exponentialgrowth-nferencko/src) I learned how to use functions, grab user input, format output, and use exceptions in C++. I like to call this program an investment calculator. This console application prompts the user to enter investment information and outputs the value of their account over the specified time period. 
 
 ## a05-InBetweenHand (C++)
 
