@@ -3,7 +3,7 @@
 ## BlackJack (Java)
 
 - With an assigned class partner, we designed and implemented a basic game of blackjack.  In our console application, a single user plays against a computer dealer.
--  **My role on this project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the Card class (representing a single Card), the DeckOfCard class (a collection of Cards backed by an ArrayList), and the BlackJackHand class (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the Applications class (the program driver).
+-  **My role on this project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the [Card class](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) (representing a single Card), the DeckOfCard class (a collection of Cards backed by an ArrayList), and the BlackJackHand class (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the Applications class (the program driver).
 -  While the written program was fully functional, there were some elements of a typical BlackJack game that were left out (e.g. doubling down and splitting). Additionally, I am currently learning Java Swing and would like to create a GUI version of this program and element and also incorporate sound.
 
 ## Probability Simulator (Java)
