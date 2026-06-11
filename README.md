@@ -2,6 +2,11 @@
 
 The projects in this portfolio are among the most interesting I've worked on.  I hope that they demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I also have varying levels of experience with C, Python, JavaScript/TypeScript, and Erlang. Some od the skills I've developed through working on these projects are object oriented design, inheritance, polymorphism, exception handling, and creative problem solving.
 
+## Trivia Maze Game (Java)
+
+- With two partners, we designed and wrote a Trivia Maze GUI application.  In this program, a player navigates their way through a maze of closed and locked doors in an attempt ot reach the exit room.  To open a closed door, the user must correctly answer a trivia question.  If they answer incorrectly, the closed door is locked forever.  A player wins the game if they reach the exit. A player loses if all possible paths to the exit room are permanently blocked.
+- **My Role on This Project:** In this project, I had a large role in writing and designing the model code (Maze, Room, Player, etc), the save/load functionality of the game, and the JUnit tests for the model classes.  Additionally, I helped with the view/controller code and the DataManager class (connection to an SQLite database).
+
 ## BlackJack (Java)
 
 - This was a UW Hackaton project.  For the project, I wrote a 1-player GUI BlackJack application.
@@ -21,9 +26,6 @@ The projects in this portfolio are among the most interesting I've worked on.  I
 
 - **Individual Project:** A console application that allows a group of users to play the card game "In Between Hand" against each other and/or a group of AI players.  The design of the program was largely provided by the instructor, but it was left to me to write [all the classes](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/a05-inbetween-nferencko/src) along with the game driver.  Completing the project required an understanding of inheritance and polymorphism along with the C++ STL.
 
-## Trivia Maze Game (Java)
 
-- With two partners, we designed and wrote a Trivia Maze GUI application.  In this program, a player navigates their way through a maze of closed and locked doors in an attempt ot reach the exit room.  To open a closed door, the user must correctly answer a trivia question.  If they answer incorrectly, the closed door is locked forever.  A player wins the game if they reach the exit. A player loses if all possible paths to the exit room are permanently blocked.
-- **My Role on This Project:** In this project, I had a large role in writing and designing the model code (Maze, Room, Player, etc), the save/load functionality of the game, and the JUnit tests for the model classes.  Additionally, I helped with the view/controller code and the DataManager class (connection to an SQLite database).
 
 
