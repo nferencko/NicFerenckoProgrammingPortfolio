@@ -1,12 +1,12 @@
 # Nic Ferencko Programming Portfolio
 
-The projects in this portfolio are some of the most interesting I've worked on.  I hope that they demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I have also done some programming using Python. Some of the skills I've developed through these projects are object oriented design, inheritance, polymorphism, exception handling, and creative problem solving.
+The projects in this portfolio are among the most interesting I've worked on.  I hope that they demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I also have varying levels of experience with C, Python, JavaScript/TypeScript, and Erlang. Some od the skills I've developed through working on these projects are object oriented design, inheritance, polymorphism, exception handling, and creative problem solving.
 
 ## BlackJack (Java)
 
-- With an assigned class partner, we designed and implemented a basic game of blackjack.  In our console application, a single user plays against a computer dealer.
--  **My Role on This Project:** I wrote several classes using object-oriented design principles.  Specifically, the classes I wrote for the project were the [Card](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) class (representing a single Card), the [DeckOfCards](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) class (a collection of Cards backed by an ArrayList), and the [BlackJackHand](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) class (another collection of cards representing a player’s hand).  Additionally, I helped my partner with some aspects of the [Actions](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Actions.java) class (the program driver).
--  While the written program was fully functional, there were some elements of a typical BlackJack game that were left out (e.g. doubling down and splitting). Additionally, I am currently learning Java Swing and would like to create a GUI version of this program and also incorporate sound.
+- This was a UW Hackaton project.  For the project, I wrote a 1-player GUI BlackJack application.
+-  **Individual Project:** I wrote the model classes using object-oriented design principles.  Specifically, the model classes I wrote for the project were the [Card](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) class (representing a single Card), the [DeckOfCards](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) class (a collection of Cards backed by an ArrayList), and the [BlackJackHand](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) class (another collection of cards representing a player’s hand).  Additionally, I wrote view/controller classes using Java Swing to implement the user interface
+-  While the written program is fully functional, there were some elements of a typical BlackJack game that were left out (e.g. split). Additionally, since the game needed to be developed in a 24-hour time-period, I put all my classes in a single package instead separating classes into model/view/controller packages as is often done.
 
 ## Probability Simulator (Java)
 
@@ -20,5 +20,10 @@ The projects in this portfolio are some of the most interesting I've worked on. 
 ## a05-InBetweenHand (C++)
 
 - **Individual Project:** A console application that allows a group of users to play the card game "In Between Hand" against each other and/or a group of AI players.  The design of the program was largely provided by the instructor, but it was left to me to write [all the classes](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/a05-inbetween-nferencko/src) along with the game driver.  Completing the project required an understanding of inheritance and polymorphism along with the C++ STL.
+
+## Trivia Maze Game (Java)
+
+- With two partners, we designed and wrote a Trivia Maze GUI application.  In this program, a player navigates their way through a maze of closed and locked doors in an attempt ot reach the exit room.  To open a closed door, the user must correctly answer a trivia question.  If they answer incorrectly, the closed door is locked forever.  A player wins the game if they reach the exit. A player loses if all possible paths to the exit room are permanently blocked.
+- **My Role on This Project:** In this project, I had a large role in writing and designing the model code (Maze, Room, Player, etc), the save/load functionality of the game, and the JUnit tests for the model classes.  Additionally, I helped with the view/controller code and the DataManager class (connection to an SQLite database).
 
 
