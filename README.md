@@ -4,7 +4,7 @@ The projects in this portfolio are among the most interesting I've worked on.  I
 
 ## Trivia Maze Game (Java)
 
-- With two partners, we designed and wrote a Trivia Maze GUI application.  In this program, a player navigates their way through a maze of closed and locked doors in an attempt ot reach the exit room.  To open a closed door, the user must correctly answer a trivia question.  If they answer incorrectly, the closed door is locked forever.  A player wins the game if they reach the exit. A player loses if all possible paths to the exit room are permanently blocked.
+- With two partners, we designed and wrote a [Trivia Maze GUI application](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/TriviaMazeGame).  In this program, a player navigates their way through a maze of closed and locked doors in an attempt ot reach the exit room.  To open a closed door, the user must correctly answer a trivia question.  If they answer incorrectly, the closed door is locked forever.  A player wins the game if they reach the exit. A player loses if all possible paths to the exit room are permanently blocked.
 - **My Role on This Project:** In this project, I had a large role in writing and designing the model code (Maze, Room, Player, etc), the save/load functionality of the game, and the JUnit tests for the model classes.  Additionally, I helped with the view/controller code and the DataManager class (connection to an SQLite database).
 
 ## BlackJack (Java)
