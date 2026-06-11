@@ -9,7 +9,7 @@ The projects in this portfolio are among the most interesting I've worked on.  I
 
 ## BlackJack (Java)
 
-- This was a UW Hackaton project.  For the project, I wrote a 1-player GUI BlackJack application.
+- This was a UW Hackaton project.  For [this project](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/tree/main/BlackJack), I wrote a 1-player GUI BlackJack application.
 -  **Individual Project:** I wrote the model classes using object-oriented design principles.  Specifically, the model classes I wrote for the project were the [Card](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/Card.java) class (representing a single Card), the [DeckOfCards](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/DeckOfCards.java) class (a collection of Cards backed by an ArrayList), and the [BlackJackHand](https://github.com/nferencko/NicFerenckoProgrammingPortfolio/blob/main/BlackJack/src/BlackJackHand.java) class (another collection of cards representing a player’s hand).  Additionally, I wrote view/controller classes using Java Swing to implement the user interface
 -  While the written program is fully functional, there were some elements of a typical BlackJack game that were left out (e.g. split). Additionally, since the game needed to be developed in a 24-hour time-period, I put all my classes in a single package instead separating classes into model/view/controller packages as is often done.
 
