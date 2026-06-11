@@ -1,0 +1,102 @@
+* e25f533 add static boolean variable to database class.  when true, questions and answers print to console, when false they aren't
+* 82734dc Comments and code cleanup to GameController
+* 9d8c347 Comments and code cleanup to Room.java
+* 682d241 Comments and code cleanup to Door.java
+* dad185c Comments and code cleanup to StatusPanel
+* d11737e Update RoomPanel.java
+* a3de58a comments and code cleanup in QuestionPanel
+* 9a87738 comments and code cleanup in MazePanel
+* 1d1c587 comments added to ControlPanel
+* 107e75f comments added to DatabaseManager
+* 8d53dec updated game instructions -- don't need ALT when moving player
+* 30e85a2 Tests updated and complete
+* 1f6cc1a more code cleanup
+* 7cba8db more tests
+* a8168a2 unit tests for Question classes, Door, and Room
+* 403729a Addressed most of the checkstyle problems flagged in the Question classes
+* 1a51132 checkstyle on GameController.  Still some issues, but most gone
+* eb683b6 player into winning square b4 JOption pane displayed
+* a530954 added comments to GameController
+* e48b94d added more questions to database.  We now have 65
+* 7451726 status panel updates when question answered.  Fire PropertyChangeEvents from Maze.processPlayerAnswer()
+* 161cb4b Added questions
+* b3a7245 Maze can now determine winner when appropiate. I believe the Maze is working fully. Could make prettier if we have time after comments, test, and the uml/srs
+* ecd4d01 Updated edge doors to locked. Wrote the determine end game method but it determines if the player wins or loses a move late. Need to get it working for after they answer a question
+* b6ac8e7 save and load now works
+*   728812f Merge branch 'main' of https://github.com/nferencko/TriviaMazeGame
+|\  
+| * bcb5939 Revert "trying to fix a issue on triviamazegui"
+| * e9d5e15 trying to fix a issue on triviamazegui
+* | 4ab5d16 added datatbase questions. Merge branch 'main' of https://github.com/nferencko/TriviaMazeGame
+|\| 
+| * 612eec8 feat(TRI-25, TRI-17): implement keyboard bindings, UI hints, pending room feedback, and reset game functionality
+* | 53945fc I added some database questions
+|/  
+* 14ccc28 don't think we need method refreshRoomPanel() in TriviaMazeGui -- commented it out and also any calls to it.  Once we're sure, we can delete
+* bf2c83e RoomPanel Load bug fixed.  RoomPanel now updates after a game load
+* 7c993e8 View now updates on attempted move vs. actual move to show door updates (e.g. closed -> locked).  Need to fix bug -- RoomPanel does not update when game is loaded from a file.  Need to investigate and fix
+*   c4a2a42 Merge branch 'main' of https://github.com/nferencko/TriviaMazeGame
+|\  
+| * c9e8118 Update TriviaMazeGui.java
+| * d18246e Added files via Git
+* | ef83c35 Added a few more questions to the database
+|/  
+* 6115313 refactored some methods
+* d791f3d updated DatabaseManager to shuffle answer choices
+* 373aa00 Added some trivia questions
+* 98bccf6 GUI now shows Exit room.  Got rid of some code smells
+* c713c00 fixed load bug. Can now successfully save and load a Maze
+* d219c9a Updated checkAnswer in MCQuestion to ignore leading and trailing whitespace.
+* 7e0148c All menu Acition Listeners moved out of TriviaMazeGui and into GameController.  Wrote listeners for all menu items.
+* cc7334d Code clean-up for menu items in the GameController.  Moved menu listeners into their own method.
+* 293cc68 You can now save and load a Maze game. I also added names for each menu item if we need for future. I needed to use those for save and load
+* 75bb3aa Update Maze.java
+* 667140a Feat: integrate GUI with Model and remove all console input logic
+* 417a46a Update Door.java
+* ea40ed9 Implemented the About menu item
+* 5d1935c Added keyboard shortcuts for menu items.  Added implemention for Exit menu item.
+* 39a9a30 Added keyboard short-cuts for player move buttons.
+* daad00f More commenting and code clean-up
+* cd35efd updated Room toString to show LOCKED doors.  Code cleanup and commenting
+* a5cb4b2 added sqlite dependency to the maven .pom file
+*   27d1401 Merge branch 'main' of https://github.com/nferencko/TriviaMazeGame
+|\  
+| * c9c2a63 Test: add DatabaseManager test function
+* | 0a66eb3 Question now displays when user tries to open a door.
+|/  
+* b90d1ca Feat: Add SQLite JDBC driver, initialize GameQuestion.db, and implement DatabaseManager
+* b1f2eda Reconnected Player to updated GUI
+* b793a97  Feat/Fix: Fully integrate View layer with GameController
+* ba24ec6 Added Files via git
+* e9a0de5 QuestionPanel now hears PropertyChangeEvents from Maze.  But, it is not doing anything with it.  Needs to be fixed.
+* f305558 Questions are being printed to console and Maze GUI acts appropiately. Will try and get that stuff to work with the GUI
+* 393d6d7 all Direction buttons work
+* a4d2254 South Button working.
+* 68545d7 Feat: Implement GUI skeleton with Status, Question panels and main menu system
+* 4332d2a Update Question.java: Add getQuestionText() getter for GUI integration
+* 8878f0c Refactor: Move UI panels to view package and initialize GameController
+* ba8c23f Player added to Maze. I believe model is done. Now we need controller code that takes listener/client commands and sends appropiate messages to Maze.
+* f87c860 Adjusted Maze to have shared Doors be equal to same Door reference. Maze portion is done but now need to impliment the Player into the Maze.
+* 84f465f Added file via Git
+* af4ddc1 Added file via Git
+* d745949 Updated Door and Room class to have enum types. Also changed the Room default construcotr to help with the Maze class. Added toString to Room class. Started Maze class. Still need to incoorperate Player into the Maze. Tests for Room and Door will need to be refactored due to enum types.
+* e548e5d Update Door class to help me with Maze
+* c6a209d Add Room class and JUnit tests
+| * 0e6f94c Updated Door class to use enum types. Removed some method and tweeked them. The Maze class should handle movement of the Player based on the Door states
+|/  
+* 5a5151a Add unit tests for Door class
+* 54bc5a9 Add files via upload
+* 55e4e66 Delete src/Door.java
+* d040775 Delete src/main/java/model/Door.java
+* 90ced9c added serializables
+* 3582e82 Add files via upload
+* 955a8ab Add files via upload
+* 0fcc8f7 MCQuestion complete
+* 43f0fd0 SAQuestion class complete
+* f274343 Added serialVersionUID number to the classes that implement Serializable
+* 492d096 Question class and TFQuestion class
+* 4d6f59e Created a player class
+* 5b9d29f Update README.md
+* b389642 Create README.md
+* c622499 inital commit
+* 13b67ae Added Door class
