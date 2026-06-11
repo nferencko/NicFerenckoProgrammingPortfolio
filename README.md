@@ -1,6 +1,6 @@
 # Nic Ferencko Programming Portfolio
 
-The projects in this portfolio are among the most interesting I've worked on.  I hope that they demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I also have varying levels of experience with C, Python, JavaScript/TypeScript, and Erlang. Some od the skills I've developed through working on these projects are object oriented design, inheritance, polymorphism, exception handling, and creative problem solving.
+The projects in this portfolio are among the most interesting I've worked on.  I hope that they demonstrate my ability to both solve challenging problems and to write clean code.  My primary programming experiences have been using Java and C++, but I also have varying levels of experience with C, Python, JavaScript/TypeScript, and Erlang. My most recent projects are Trivia Maze Game and BlackJack. I believe these two projects most accurately showcase where I am as a programmer today.
 
 ## Trivia Maze Game (Java)
 
